@@ -1,0 +1,6 @@
+const button=document.getElementsByTagName('button');
+
+button.addEventListener('click', event => {
+    button.innerHTML = `Click count: ${event.detail}`;
+  });
+  Result

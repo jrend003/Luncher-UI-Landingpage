@@ -1,48 +1,100 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.container {
+  width: 1000px;
+  margin: 0 auto;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+header.main-navigation {
+  display: flex;
+  justify-content: space-between;
 }
-body {
-	line-height: 1;
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 70px;
+  color: #1061e5;
+  padding-top: 100px;
 }
-ol, ul {
-	list-style: none;
+.top-area {
+  background-image: url("https://civileats.com/wp-content/uploads/2014/07/shutterstock_139406255-e1406046698578.jpg");
+  background-size: auto;
+  height: 500px;
 }
-blockquote, q {
-	quotes: none;
+button {
+  background-color: #a2f771;
+  color: #1061e5;
+  padding: 10px 35px;
+  margin-left: 100px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.box1 {
+  border: solid 3px #a2f771;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.box2 img {
+  width: 10px;
+  height: 10px;
+}
+.box4 {
+  border: solid 3px #a2f771;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  margin-left: 150px;
+}
+.first-content {
+  display: flex;
+}
+.second-content {
+  display: flex;
+}
+.middle-section {
+  background-color: #1061e5;
+}
+.banner {
+  background-color: #a2f771;
+  color: black;
+  font-size: 17px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  background-color: #1061e5;
+}
+footer address {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1061e5;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1061e5;
+  color: white;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.first-content {
+  display: flex;
+  justify-content: space-between;
+}
+.quote {
+  text-align: center;
+  margin-top: 250px;
+  font-size: 30px;
+}
+.cta-section {
+  padding-top: 50px;
 }
