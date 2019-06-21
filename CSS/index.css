@@ -74,12 +74,18 @@ button {
 }
 footer {
   background-color: #1061e5;
+  color: white;
 }
 footer address {
   color: white;
   display: flex;
   justify-content: space-evenly;
   background-color: #1061e5;
+}
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
 }
 .bottom-footer {
   display: flex;
@@ -93,7 +99,7 @@ img {
 }
 .first-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .quote {
   text-align: center;
